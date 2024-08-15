@@ -1,11 +1,41 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "PostRecommender.Contracts/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/PostRecommender.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/PostRecommender.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PostRecommender.Contracts/2.0.0": {
+      "sha512": "unwXb3ptrnPeui9RYtW9wOvBgFb7n0YgphsNc1lJiZKRkyr/yZMz7wlWVlKGncwJ+WDJFj4+nP6UXzKlGA2UBg==",
+      "type": "package",
+      "path": "postrecommender.contracts/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/PostRecommender.Contracts.dll",
+        "lib/net8.0/PostRecommender.Contracts.xml",
+        "postrecommender.contracts.2.0.0.nupkg.sha512",
+        "postrecommender.contracts.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "PostRecommender.Contracts >= 2.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\happy\\.nuget\\packages\\": {},
@@ -50,6 +80,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "PostRecommender.Contracts": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
