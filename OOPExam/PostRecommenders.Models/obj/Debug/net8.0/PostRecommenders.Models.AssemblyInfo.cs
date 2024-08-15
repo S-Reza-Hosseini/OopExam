@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PostRecommenders.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b01335c7ba3104e6db615fe9c2fdf28ba944f275")]
 [assembly: System.Reflection.AssemblyProductAttribute("PostRecommenders.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PostRecommenders.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
